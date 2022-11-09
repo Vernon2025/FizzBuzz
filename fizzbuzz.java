@@ -4,7 +4,13 @@ public class fizzbuzz
     
     
     public void run() {
-        System.out.println("This is the FizzBuzz project");
+        String Fizz = "Fizz";
+        String Buzz = "Buzz";
+        String FizzBuzz = "FizzBuzz";
+        String str = "";
+        for (int i = 1; i <= 100; i++) {
+            System.out.println(i);
+        }
     }
     
     
